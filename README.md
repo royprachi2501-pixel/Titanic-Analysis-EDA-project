@@ -1,106 +1,50 @@
-# Titanic Survival Analysis
+# Titanic Survival Analysis – Exploratory Data Analysis (EDA)
 
-## Project Overview
+## 📌 Overview
+This project explores the famous Titanic dataset to understand the factors that influenced passenger survival. Through exploratory data analysis (EDA), the goal is to uncover patterns, trends, and relationships in the data using visualizations and statistical summaries.
 
-This project performs Exploratory Data Analysis (EDA) on the Titanic dataset using Python. The objective is to analyze passenger information and identify the factors that influenced survival.
+## 🎯 Objectives
+- Understand the structure and quality of the Titanic dataset
+- Handle missing values and clean the data
+- Explore relationships between features (age, sex, class, fare, etc.) and survival
+- Visualize key trends using charts and graphs
+- Draw insights on which factors most affected survival chances
 
----
-
-## Dataset
-
-- Dataset: Titanic - Machine Learning from Disaster
-- Source: [Kaggle - Titanic: Machine Learning from Disaster](https://www.kaggle.com/competitions/titanic)
-
----
-
-## Technologies Used
-
-- Python
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
----
-
-## Project Structure
-
-```text
-Titanic-survival-analysis/
+## 🗂️ Project Structure
+```
+Titanic-Analysis-EDA-project/
 │
-├── data/
-│   └── train.csv
-├── images/
-│   ├── survival_count.png
-│   ├── gender_survival.png
-│   ├── fare_distribution.png
-│   └── correlation_heatmap.png
-├── Titanic_Analysis.ipynb
-└── README.md
+├── Titanic-survival-analysis/   # Main analysis files (notebooks/scripts)
+├── .vscode/                     # Editor configuration
+└── README.md                    # Project overview (this file)
 ```
 
+## 🛠️ Tools & Libraries Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
 
----
+## 📊 Key Questions Explored
+- Did gender affect survival rate?
+- Did passenger class (1st, 2nd, 3rd) influence survival?
+- How did age distribution relate to survival?
+- Did fare price correlate with survival chances?
 
-## Analysis Performed
+## 🚀 How to Run
+1. Clone this repository
+   ```bash
+   git clone https://github.com/royprachi2501-pixel/Titanic-Analysis-EDA-project.git
+   ```
+2. Navigate into the project folder
+3. Open the notebook/script in Jupyter Notebook or VS Code
+4. Run the cells/scripts to view the analysis and visualizations
 
-- Data Loading
-- Data Cleaning
-- Handling Missing Values
-- Survival Count
-- Survival by Gender
-- Survival by Passenger Class
-- Age Distribution
-- Fare Distribution
-- Survival by Age
-- Survival by Fare
-- Correlation Analysis
+## 📈 Insights (to be updated as analysis progresses)
+- Add key findings here once analysis is complete (e.g., "Women had a significantly higher survival rate than men")
 
----
-
-## Key Insights
-
-- Female passengers had a higher survival rate than male passengers.
-- First-class passengers were more likely to survive.
-- Most passengers were between 20 and 35 years of age.
-- Passengers who paid higher ticket fares had better survival rates.
-- Passenger class, gender, and fare were the strongest factors influencing survival.
-
----
-
-
-## Sample Visualizations
-
-### Survival Count
-
-![Survival Count](images/survival_count.png)
-
-### Survival by Gender
-
-![Gender Survival](images/gender_survival.png)
-
-### Correlation Heatmap
-
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-### Fare Distribution
-
-![Fare Distribution](images/fare_distribution.png)
-
-
----
-
-
-## Conclusion
-
-This project demonstrates the use of Exploratory Data Analysis (EDA) techniques to clean, visualize, and analyze real-world data using Python. The analysis provides meaningful insights into the factors that affected passenger survival on the Titanic.
-
----
-
-## Author
-
+## 🙋‍♀️ Author
 **Prachi**
-
-Computer Science Engineering (AI & ML) Student
+This is my first data analysis project — feedback and suggestions are welcome!
 
