@@ -46,5 +46,7 @@ Titanic-Analysis-EDA-project/
 
 ## 🙋‍♀️ Author
 **Prachi**
+Student at Chandigarh University
+CSE AI & ML
 This is my first data analysis project — feedback and suggestions are welcome!
 
